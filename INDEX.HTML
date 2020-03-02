@@ -1,0 +1,120 @@
+<!--Doctype me indica que mi documento esta utilizando HTML en su version 5 -->
+<!Doctype HTML>
+<!-- va a tener una etiqueta de apertura <etiqueta> y una de cierre </etiqueta>-->
+<html>
+    <!-- <head> es el contenido que usualmente no vemos pero es importante para el navegador-->
+    <!-- un atributo va a si: atributo="valor del atributo"-->
+    <head lang="es">
+        <meta name="description" content="html5, codigo, web, pagina inicial de los alumnos de codigo"/>
+        <meta name="keywords" content="web, vscode,arequipa,paucarpata"/>
+        <!-- UNICODE 8, QUE ES la codificacion -->
+        <meta charset="UTF 8"/>
+    </head>
+    <body>
+        <!-- el contenido que si es visible usualmente en mi pagina web-->
+        <!-- contenedores semanticos -->
+        <header>
+            <h1>titulo de mi pagina web</h1>
+            <h2>titulo de MI pagina web</h2>
+            <h3>titulo de Mi pagina web</h3>
+            <h4>titulo de mi pagina web</h4>
+            <h5>titulo de mi pagina web</h5>
+            <h6>titulo de mi pagina web</h6>
+        </header>
+        <nav>
+            <!-- lista desordenada -->
+            <ul>
+                <!-- # (michi o numeral) hace referencia usualmente a un id  -->
+                <li><a href="#articulo_1">articulo 1</a></li>
+                <li><a href="#articulo_2">articulo 2</a></li>
+                <li><a href="#articulo_3">articulo 3</a></li>
+                <li><a href="#articulo_4">articulo 4</a></li>
+                <li><a href="http://youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="./02-imagenes.html" target="_blank">Fotos</a></li>
+                <li><a href="./03-Listas.html" target="_self">Listas</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2 id="articulo_1">titulo de articulo1</h2>
+                    <!-- parrafo -->
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iure eum dolore, nostrum fugit ullam illum hic dignissimos quasi. Eaque aliquam sit, quos beatae nobis debitis temporibus officia perspiciatis reiciendis?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero perferendis, est debitis recusandae ipsam cumque magni laudantium dolor officiis blanditiis, ipsum repudiandae natus distinctio laborum nisi ipsa eveniet! Consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, fuga, cumque pariatur dicta enim praesentium non totam ex debitis quibusdam recusandae similique ducimus dolorum aliquid aspernatur quaerat ratione inventore nemo.
+                        <br/><br/> dolorum provident vero sed animi iste iure maiores illo incidunt aliquam sequi, voluptatem officia placeat dicta quasi molestias, inventore perferendis fuga, tempora vel. Molestias illo facere autem temporibus praesentium.
+                        Eligendi dicta placeat ab modi vero cumque culpa rem eveniet, velit, quo reiciendis, optio voluptates hic exercitationem tempora! Et praesentium, aliquid excepturi exercitationem suscipit cum necessitatibus itaque. Facilis, dolor amet.
+                        Nobis mollitia maxime earum unde quibusdam in excepturi illo, impedit quia, voluptatibus est totam laborum esse illum nulla beatae, perferendis sunt quidem id non ratione doloribus? Rerum reprehenderit eveniet dignissimos!
+                        <pre>
+                            la etiqueta pre sirve para mostrar el
+                            
+                            TAL     CUAL    se escribe en mi HTML
+                        </pre>
+                        <code>
+                            var x=20;
+                        </code>
+                        <time>
+                            12:19
+                        </time>
+                    </p> 
+                </article>
+                <article>
+                    <h2 id="articulo_2">titulo de articulo2</h2>
+                    <!-- parrafo -->
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iure eum dolore, nostrum fugit ullam illum hic dignissimos quasi. Eaque aliquam sit, quos beatae nobis debitis temporibus officia perspiciatis reiciendis?</p> 
+                </article>
+                <article>
+                    <h2 id="articulo_3">titulo de articulo3</h2>
+                    <!-- parrafo -->
+                    <p>
+                        Lorem ipsum dolor sit amet <span style="color:blue">Un texto random </span>consectetur adipisicing elit. Iste iure eum dolore, nostrum fugit ullam illum hic dignissimos quasi. Eaque aliquam sit, quos beatae nobis debitis temporibus officia perspiciatis reiciendis?
+                    </p> 
+                </article>
+                <article>
+                    <h2 id="articulo_4">titulo de articulo4</h2>
+                    <!-- parrafo -->
+                    <p>
+                        <em>un texto en cursiva </em>Lorem ipsum dolor sit
+                        <strong>esto es importante </strong> amet consectetur adipisicing elit. Iste iure eum dolore, nostrum fugit ullam illum hic dignissimos quasi. Eaque aliquam sit, quos beatae nobis debitis temporibus officia perspiciatis reiciendis?
+                        <br/>
+                        <u>Texto subrayado</u>
+                        <br/>
+                        <i>en cursiva, texto</i>
+                        <br/>
+                        <b>texto en negrita</b>
+                    </p> 
+                </article>
+            </section>
+        </main>
+        <aside>
+            <h3>Redes Sociales</h3>
+            <!-- lista ordenada -->
+            <ol>
+                <li>
+                    <a href="https://youtube.com">Youtube</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://facebook.com">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com">Instagram</a>
+                </li>
+            </ol>
+            <div>
+                <h3>Parasite</h3>
+                <img src="./assets/parasite.jpg" width="300px" height="200px"/>
+            </div>
+        </aside>
+        <footer>
+            <span>CodiGo - derechos reservados</span>
+            <span>Marzo 2020</span>
+            <mark>Texto Reservado</mark>
+            <small>va ser contenido informativo, pero chiquito</small>
+            <cite>[1] Garcia Marquez, El amor en los tiempos de cólera, 1985</cite>
+            <address>Av. Los palotes 500, dolores</address>
+        </footer>
+    </body>
+</html>
